@@ -12,6 +12,8 @@
 		B6FF1D1E19EDC23400FC8665 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6FF1D1C19EDC23400FC8665 /* Main.storyboard */; };
 		B6FF1D2019EDC23400FC8665 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6FF1D1F19EDC23400FC8665 /* Images.xcassets */; };
 		B6FF1D2C19EDC23400FC8665 /* Test1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FF1D2B19EDC23400FC8665 /* Test1Tests.swift */; };
+		B6FF1D3619EDC9D700FC8665 /* PermalinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FF1D3519EDC9D700FC8665 /* PermalinkViewController.swift */; };
+		B6FF1D3819EDCE1700FC8665 /* HomeFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FF1D3719EDCE1700FC8665 /* HomeFeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		B6FF1D2519EDC23400FC8665 /* Test1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6FF1D2A19EDC23400FC8665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6FF1D2B19EDC23400FC8665 /* Test1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test1Tests.swift; sourceTree = "<group>"; };
+		B6FF1D3519EDC9D700FC8665 /* PermalinkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PermalinkViewController.swift; sourceTree = "<group>"; };
+		B6FF1D3719EDCE1700FC8665 /* HomeFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeFeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				B6FF1D1C19EDC23400FC8665 /* Main.storyboard */,
 				B6FF1D1F19EDC23400FC8665 /* Images.xcassets */,
 				B6FF1D1619EDC23400FC8665 /* Supporting Files */,
+				B6FF1D3519EDC9D700FC8665 /* PermalinkViewController.swift */,
+				B6FF1D3719EDCE1700FC8665 /* HomeFeedViewController.swift */,
 			);
 			path = Test1;
 			sourceTree = "<group>";
@@ -158,6 +164,7 @@
 				TargetAttributes = {
 					B6FF1D1219EDC23400FC8665 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = Y63YAM7GM4;
 					};
 					B6FF1D2419EDC23400FC8665 = {
 						CreatedOnToolsVersion = 6.0;
@@ -210,6 +217,8 @@
 			files = (
 				B6FF1D1B19EDC23400FC8665 /* ViewController.swift in Sources */,
 				B6FF1D1919EDC23400FC8665 /* AppDelegate.swift in Sources */,
+				B6FF1D3619EDC9D700FC8665 /* PermalinkViewController.swift in Sources */,
+				B6FF1D3819EDCE1700FC8665 /* HomeFeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Test1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -336,6 +346,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Test1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -395,6 +406,7 @@
 				B6FF1D3119EDC23400FC8665 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6FF1D3219EDC23400FC8665 /* Build configuration list for PBXNativeTarget "Test1Tests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +415,7 @@
 				B6FF1D3419EDC23400FC8665 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
